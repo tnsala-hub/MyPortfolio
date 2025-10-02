@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2D Animator Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">YourName</div>
+    <ul>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <video autoplay muted loop playsinline class="hero-video">
+      <source src="animations/anim1.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay">
+      <h1>Professional 2D Animator & Illustrator</h1>
+      <p>Bringing stories to life with vibrant animations and illustrations.</p>
+      <a href="#portfolio">View My Work</a>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-grid">
+      <div class="portfolio-item">
+        <video autoplay muted loop playsinline>
+          <source src="animations/anim1.mp4" type="video/mp4">
+        </video>
+        <div class="overlay">Animation 1</div>
+      </div>
+      <div class="portfolio-item">
+        <video autoplay muted loop playsinline>
+          <source src="animations/anim2.mp4" type="video/mp4">
+        </video>
+        <div class="overlay">Animation 2</div>
+      </div>
+      <div class="portfolio-item">
+        <video autoplay muted loop playsinline>
+          <source src="animations/anim3.mp4" type="video/mp4">
+        </video>
+        <div class="overlay">Animation 3</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I’m a commercial 2D animator and illustrator specializing in character animation, storyboards, and motion graphics for ads, games, and digital content.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2>Services</h2>
+    <ul>
+      <li>Character Animation</li>
+      <li>Storyboarding</li>
+      <li>Commercial Illustration</li>
+      <li>Motion Graphics</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Project Details" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
